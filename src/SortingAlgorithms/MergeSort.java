@@ -1,7 +1,6 @@
 package SortingAlgorithms;
 
 public class MergeSort {
-
         public static void mergeSort(int[] array) {
             if (array.length <= 1) {
                 return;
@@ -9,7 +8,6 @@ public class MergeSort {
             int[] temp = new int[array.length];
             mergeSort(array, temp, 0, array.length - 1);
         }
-
         private static void mergeSort(int[] array, int[] temp, int left, int right) {
             if (left >= right) {
                 return;
@@ -19,7 +17,6 @@ public class MergeSort {
             mergeSort(array, temp, mid + 1, right);
             merge(array, temp, left, mid, right);
         }
-
         private static void merge(int[] array, int[] temp, int left, int mid, int right) {
             for (int i = left; i <= right; i++) {
                 temp[i] = array[i];
