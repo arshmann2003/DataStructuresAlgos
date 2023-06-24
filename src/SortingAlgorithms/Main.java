@@ -5,6 +5,7 @@ public class Main {
         int[] arr = {5,4,2,15,2,234,43,2,1};
 //        MergeSort.mergeSort(arr);
         SelectionSort.selectionSort(arr);
+//        InsertionSort.insertionSort(arr);
 
         for(int i=0; i<arr.length; i++){
             System.out.print(arr[i] + " ");
