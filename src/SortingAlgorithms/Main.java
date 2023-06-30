@@ -6,6 +6,7 @@ public class Main {
 //        MergeSort.mergeSort(arr);
         SelectionSort.selectionSort(arr);
         InsertionSort.insertionSort(arr);
+        InsertionSort.insertionSort(arr);
 
 
         for(int i=0; i<arr.length; i++){
